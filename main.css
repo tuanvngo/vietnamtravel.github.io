@@ -408,6 +408,10 @@
     display: grid;
     grid-template-columns:2fr 1.5fr ;
 }
+.container__content__body__01{
+    display: grid;
+    grid-template-columns:1.5fr 2fr ;
+}
 .container__content__body--left{
     margin: 20px;
     line-height: 1.6;
@@ -420,10 +424,6 @@
 .container__content__body--right{
     margin:auto;
 }
-.container__content__body__01{
-    display: grid;
-    grid-template-columns:1.5fr 2fr ;
-}
 /* end conten */
 .show_slide{
     grid-column: 1/3;
@@ -434,7 +434,7 @@
 .footer{
     width: 100%;
     height: 400px;
-    background-image: url(https://scontent-xsp1-2.xx.fbcdn.net/v/t1.6435-9/233657086_1054713511934241_2050031569205731780_n.jpg?_nc_cat=101&ccb=1-4&_nc_sid=730e14&_nc_ohc=74-z4FbeFvwAX8JMWZS&_nc_ht=scontent-xsp1-2.xx&oh=735c4a60230c165b97d579655dd5041a&oe=6138D654);
+    
     background-size: cover;
     background-position: center;
     position: absolute;
