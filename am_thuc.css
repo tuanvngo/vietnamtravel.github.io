@@ -208,7 +208,45 @@ body{
     /* font-size: 30px; */
 }
 
-
+.regit{
+    background-color: rgb(118, 176, 179);
+    height: 330px;
+    width: 100%;
+}
+.regit .information {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.regit .information input{
+    width: 90%;
+    margin: 10px 40px;
+    padding: 10px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+    border: none ;
+    background-color: rgba(242, 243, 243, 0.404);
+}
+.regit button{
+    margin-top: 10px;
+    width: 10%;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    margin-left: 630px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.regit button:hover{
+    background-color: var(--yellow-color);
+}
+.regit h2{
+    text-align: center;
+    padding: 30px 0;
+    font-size: 25px;
+    color: rgb(238, 74, 14);
+}
 
 
 .footer{

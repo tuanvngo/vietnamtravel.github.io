@@ -162,6 +162,9 @@ body{
     font-size: 16px;
     cursor: pointer;
 }
+.header_2 .header2__sale a{
+    color: var(--yellow-color);
+}
 .header_2 .header2--bars:hover {
     color: var(--yellow-color);
     transform: 120%;
@@ -207,6 +210,7 @@ body{
     /* background-color: bisque; */
     /* font-size: 30px; */
 }
+
 .regit{
     background-color: rgb(118, 176, 179);
     height: 330px;
@@ -246,6 +250,8 @@ body{
     font-size: 25px;
     color: rgb(238, 74, 14);
 }
+
+
 .footer{
     /* background-color: rgba(37, 37, 37, 0.589);
     height: 300px; */
